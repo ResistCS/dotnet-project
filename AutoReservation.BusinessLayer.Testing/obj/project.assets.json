@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "AutoReservation.BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AutoReservation.Dal": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AutoReservation.BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoReservation.BusinessLayer.dll": {}
+        }
+      },
+      "AutoReservation.Dal/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/AutoReservation.Dal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoReservation.Dal.dll": {}
+        }
+      },
+      "AutoReservation.TestEnvironment/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AutoReservation.Dal": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AutoReservation.TestEnvironment.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoReservation.TestEnvironment.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoReservation.BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../AutoReservation.BusinessLayer/AutoReservation.BusinessLayer.csproj",
+      "msbuildProject": "../AutoReservation.BusinessLayer/AutoReservation.BusinessLayer.csproj"
+    },
+    "AutoReservation.Dal/1.0.0": {
+      "type": "project",
+      "path": "../AutoReservation.Dal/AutoReservation.Dal.csproj",
+      "msbuildProject": "../AutoReservation.Dal/AutoReservation.Dal.csproj"
+    },
+    "AutoReservation.TestEnvironment/1.0.0": {
+      "type": "project",
+      "path": "../AutoReservation.TestEnvironment/AutoReservation.TestEnvironment.csproj",
+      "msbuildProject": "../AutoReservation.TestEnvironment/AutoReservation.TestEnvironment.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "AutoReservation.BusinessLayer >= 1.0.0",
+      "AutoReservation.TestEnvironment >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\davor\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\davor\\Documents\\dotnet-project\\AutoReservation.BusinessLayer.Testing\\AutoReservation.BusinessLayer.Testing.csproj",
+      "projectName": "AutoReservation.BusinessLayer.Testing",
+      "projectPath": "C:\\Users\\davor\\Documents\\dotnet-project\\AutoReservation.BusinessLayer.Testing\\AutoReservation.BusinessLayer.Testing.csproj",
+      "packagesPath": "C:\\Users\\davor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\davor\\Documents\\dotnet-project\\AutoReservation.BusinessLayer.Testing\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\davor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "C:\\Users\\davor\\Documents\\dotnet-project\\AutoReservation.BusinessLayer\\AutoReservation.BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\davor\\Documents\\dotnet-project\\AutoReservation.BusinessLayer\\AutoReservation.BusinessLayer.csproj"
+            },
+            "C:\\Users\\davor\\Documents\\dotnet-project\\AutoReservation.TestEnvironment\\AutoReservation.TestEnvironment.csproj": {
+              "projectPath": "C:\\Users\\davor\\Documents\\dotnet-project\\AutoReservation.TestEnvironment\\AutoReservation.TestEnvironment.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
